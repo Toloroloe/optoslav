@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ef">
+  <title>Optoslav: моделирование квантово-оптических экспериментов</title>
+  <meta name="description" content="Собирайте оптические схемы, меняйте параметры и сравнивайте результаты расчётов. Optoslav: интерактивная среда для исследований и обучения квантовой оптике.">
+  <link rel="canonical" href="https://toloroloe.github.io/optoslav/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Optoslav">
+  <meta property="og:title" content="Optoslav. Квантовая оптика на вашем экране.">
+  <meta property="og:description" content="Интерактивная среда моделирования квантово-оптических экспериментов. От схемы и параметров к сохранённому результату.">
+  <meta property="og:url" content="https://toloroloe.github.io/optoslav/">
+  <meta property="og:image" content="https://toloroloe.github.io/optoslav/assets/experiment.png">
+  <meta property="og:image:width" content="723">
+  <meta property="og:image:height" content="664">
+  <meta property="og:image:alt" content="Подготовка двухвходового оптического опыта в Optoslav">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://toloroloe.github.io/optoslav/#organization","name":"ООО «Оптослав»","url":"https://toloroloe.github.io/optoslav/","email":"romangon152@yandex.ru","taxID":"5262396800"},{"@type":"SoftwareApplication","name":"Optoslav","applicationCategory":"ScienceApplication","description":"Интерактивная среда моделирования квантово-оптических экспериментов","url":"https://toloroloe.github.io/optoslav/","publisher":{"@id":"https://toloroloe.github.io/optoslav/#organization"},"inLanguage":"ru"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Optoslav, на главную"><span class="brand-mark" aria-hidden="true"></span>optoslav<span class="wordmark-dot">.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню"><span></span><span></span></button>
+      <nav id="main-nav" aria-label="Основная навигация">
+        <a href="#capabilities">Возможности</a>
+        <a href="#workflow">Как это работает</a>
+        <a href="#about">О проекте</a>
+        <a class="nav-contact" href="#contact">Связаться <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ИНТЕРАКТИВНАЯ СРЕДА МОДЕЛИРОВАНИЯ</p>
+        <h1 id="hero-title">Квантовая<br> оптика <span>на вашем<br>экране.</span></h1>
+        <p class="hero-description">Собирайте оптические схемы, меняйте параметры и сравнивайте результаты расчётов в Optoslav.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="mailto:romangon152@yandex.ru?subject=Optoslav%3A%20демонстрация">Запросить демонстрацию <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#capabilities">Изучить возможности <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="product-status">Работающий прототип <span aria-hidden="true">/</span> Настольное приложение</p>
+      </div>
+      <figure class="product-figure">
+        <div class="image-label"><span class="mono">OPTOSLAV / ЭКСПЕРИМЕНТ 01</span><span class="image-label-symbol" aria-hidden="true">⌘</span></div>
+        <button class="screenshot-button" type="button" data-open-image aria-label="Увеличить скриншот Optoslav">
+          <img class="product-image" src="./assets/experiment.png" width="723" height="664" alt="Оптическая схема с двумя входами, потерями, задержкой и двумя выходами в пространственной среде Optoslav" fetchpriority="high">
+          <span class="zoom-hint"><span aria-hidden="true">↗</span> Увеличить</span>
+        </button>
+        <figcaption><span>Подготовка двухвходового оптического опыта.<br>Реальный интерфейс работающего прототипа.</span><span class="figure-index mono" aria-hidden="true">01 / 01</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="intro-strip container" aria-label="Назначение Optoslav">
+      <p class="mono intro-label">СХЕМА → ПАРАМЕТРЫ → РЕЗУЛЬТАТ</p>
+      <p>Источники, оптические элементы, детекторы и условия расчёта в одной схеме.</p>
+    </section>
+
+    <section class="section container" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading">
+        <p class="eyebrow section-number">01 / ВОЗМОЖНОСТИ</p>
+        <h2 id="capabilities-title">Работайте со схемой.<br><span class="muted">Исследуйте её поведение.</span></h2>
+      </div>
+      <div class="capabilities-list">
+        <details class="capability" open>
+          <summary><span class="capability-number mono">01</span><h3>Собирайте эксперимент</h3><span class="capability-description">Комбинируйте совместимые модели источников, оптических элементов и детекторов.</span><span class="expand-icon" aria-hidden="true"></span></summary>
+          <div class="capability-detail"><p>Пространственная сцена помогает видеть устройство эксперимента и связи между компонентами. Параметры схемы доступны рядом с самой установкой.</p></div>
+        </details>
+        <details class="capability">
+          <summary><span class="capability-number mono">02</span><h3>Меняйте условия</h3><span class="capability-description">Изучайте влияние задержек, поляризации, потерь и настроек регистрации.</span><span class="expand-icon" aria-hidden="true"></span></summary>
+          <div class="capability-detail"><p>Выбирайте параметры компонентов и измерений для своего опыта. Доступные расчёты определяются физической моделью и совместимостью элементов.</p></div>
+        </details>
+        <details class="capability">
+          <summary><span class="capability-number mono">03</span><h3>Исследуйте зависимости</h3><span class="capability-description">Проводите одномерные сканирования и сравнивайте результаты при разных параметрах.</span><span class="expand-icon" aria-hidden="true"></span></summary>
+          <div class="capability-detail"><p>Последовательно изменяйте выбранный параметр, чтобы проследить поведение схемы. Сохраняйте условия каждого расчёта для дальнейшего сравнения.</p></div>
+        </details>
+        <details class="capability">
+          <summary><span class="capability-number mono">04</span><h3>Возвращайтесь к результату</h3><span class="capability-description">Сохраняйте схему и записи расчётов, повторяйте анализ и экспортируйте данные.</span><span class="expand-icon" aria-hidden="true"></span></summary>
+          <div class="capability-detail"><p>Сохранённые условия помогают восстановить ход работы. Открывайте записи повторно и используйте выгрузки для анализа за пределами приложения.</p></div>
+        </details>
+      </div>
+    </section>
+
+    <section class="workflow-section" id="workflow" aria-labelledby="workflow-title">
+      <div class="container">
+        <div class="section-heading workflow-heading"><p class="eyebrow section-number">02 / ПОРЯДОК РАБОТЫ</p><h2 id="workflow-title">Проверяйте идеи<br>в численном эксперименте.</h2></div>
+        <ol class="workflow-list">
+          <li><span class="step-number mono">01</span><div><h3>Задайте опыт</h3><p>Выберите совместимые компоненты, соберите схему и укажите параметры.</p></div></li>
+          <li><span class="step-number mono">02</span><div><h3>Выполните расчёт</h3><p>Выберите измерение, исследуйте отдельный режим или изменение параметра.</p></div></li>
+          <li><span class="step-number mono">03</span><div><h3>Сравните и сохраните</h3><p>Изучите полученные данные, сохраните условия и вернитесь к ним в следующей работе.</p></div></li>
+        </ol>
+        <div class="use-cases"><span class="mono use-cases-label">ДЛЯ ВАШИХ ЗАДАЧ</span><p>Исследования квантовой оптики.<br>Обучение через численный опыт.<br>Подготовка экспериментальных схем.</p></div>
+      </div>
+    </section>
+
+    <section class="section about-section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow section-number">03 / О ПРОЕКТЕ</p><h2 id="about-title">Среда для работы<br>с квантовой оптикой.</h2></div>
+      <div class="about-content">
+        <div class="about-text"><p class="lead">Optoslav развивается как настольная среда для исследований и обучения. Пользователь работает с экспериментом через наглядную схему и параметры компонентов.</p><p>Есть работающий прототип. Для прикладной задачи мы обсуждаем подходящую модель, исходные данные и возможную адаптацию. Текущую версию можно посмотреть на демонстрации.</p><p class="registration">Регистрация программы для ЭВМ <span class="mono">№ 2025686532</span></p></div>
+        <aside class="support" aria-labelledby="support-title"><span class="support-icon" aria-hidden="true">↗</span><p class="eyebrow">ПОДДЕРЖКА ПРОЕКТА</p><h3 id="support-title">Фонд содействия<br>инновациям</h3><p>Прототип создан при поддержке ФСИ по программе «Старт-Взлёт».</p><a class="text-link" href="https://fasie.ru/" target="_blank" rel="noopener noreferrer">О Фонде <span aria-hidden="true">↗</span></a></aside>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner"><div><p class="eyebrow">СЛЕДУЮЩИЙ ЭКСПЕРИМЕНТ</p><h2 id="contact-title">Обсудим<br>вашу задачу.</h2></div><div class="contact-copy"><p>Расскажите, какой опыт вы хотите смоделировать. Покажем текущую версию Optoslav и обсудим подходящие модели.</p><a class="email-link" href="mailto:romangon152@yandex.ru?subject=Optoslav%3A%20обсуждение%20задачи">romangon152@yandex.ru <span aria-hidden="true">↗</span></a><p class="contact-note">Для демонстраций, исследовательских задач и сотрудничества.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="wordmark" href="#top" aria-label="Optoslav, в начало страницы"><span class="brand-mark" aria-hidden="true"></span>optoslav<span class="wordmark-dot">.</span></a><div class="company-details"><span>ООО «Оптослав»</span><span>ИНН 5262396800 <span aria-hidden="true">·</span> ОГРН 1245200025916</span></div><p>© 2026 Optoslav</p><a class="back-top" href="#top" aria-label="В начало страницы">↑</a></div></footer>
+
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="image-dialog-title"><div class="dialog-header"><h2 id="image-dialog-title">Optoslav / Подготовка опыта</h2><button type="button" class="close-dialog" data-close-image aria-label="Закрыть скриншот">Закрыть <span aria-hidden="true">×</span></button></div><img src="./assets/experiment.png" width="723" height="664" alt="Увеличенный скриншот: оптический опыт с двумя входами в Optoslav"><p>Реальный интерфейс прототипа. На снимке показана подготовка схемы.</p></dialog>
+</body>
+</html>
